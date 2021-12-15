@@ -1,0 +1,29 @@
+.blog {
+    padding-top: 154px;
+    padding-bottom: 154px;
+}
+
+.blog-title {
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  max-width: 701px;
+  margin-bottom: 116px;
+}
+
+.blog-container {
+    display: flex;
+}
+
+.blog-container_left {
+    flex: 0.75;
+    margin-right: 49px;
+}
+
+.blog-container_right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 48px;
+    flex: 1;
+}

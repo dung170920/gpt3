@@ -1,0 +1,31 @@
+.features {
+    padding-top: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.features-heading h2 {
+    max-width: 426px;
+    font-weight: 800;
+    font-size: 34px;
+}
+
+.features-heading p {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--light-orange);
+    margin-top: 34px;
+}
+
+.features-desc {
+    max-width: 590px;
+}
+
+.features-desc .feature-heading {
+    margin-bottom: 52px;
+}
+
+.features-desc .feature-heading h3 {
+    font-size: 20px;
+}
